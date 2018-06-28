@@ -1,0 +1,51 @@
+/*
+ * 配置自定义菜单
+ */
+'use strict'
+
+module.exports = {
+    'button':[
+     {    
+        'type':'click',
+        'name':'最新',
+        'key':'zuixin'
+     },
+     {
+        'name':'电影',
+        'sub_button':[
+        {    
+          'type':'view',
+          'name':'飞妃影视',
+		  "url":"http://www.feifeiys.cc/"
+        },
+        {
+          'type':'click',
+          'name':'悬疑',
+          'key':'V1001_TYPE_KXUANYI'
+        },
+        {
+          'type':'click',
+          'name':'爱情',
+          'key':'V1001_TYPE_AIQING'
+        },
+        {
+          'type':'click',
+          'name':'教育',
+          'key':'V1001_TYPE_JIAOYU'
+        }]
+         },
+         {
+        'name':'音乐',
+        'sub_button':[
+        {    
+          'type':'view',
+          'name':'茂茂播放器',
+          'url':'http://music.mtnhao.com/#/music/playlist'
+        },
+        {
+          'type':'click',
+          'name':'欧美',
+          'key':'V1001_AREA_OUMEI'
+        }]
+    }]
+}
